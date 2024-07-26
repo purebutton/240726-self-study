@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load the data
-file_path = 'path_to_your_file/신체검사 결과(1).csv'
+file_path = '신체검사 결과(1).csv'
 data = pd.read_csv(file_path, encoding='euc-kr')
 
 # Function to validate user input
